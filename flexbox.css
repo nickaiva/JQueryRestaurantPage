@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    background-color: blanchedalmond;
+}
+header, footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color:brown;
+    font-size: 1.5rem;
+    padding: 2%;
+
+}
+h1,h2{
+    text-align: center;
+}
+h3:hover{
+    cursor: pointer;
+}
+main {
+    text-align: center;
+    margin:0;
+
+}
+#menu, #contact {
+    font-size: 1rem;
+}
+footer{
+    font-size: .5rem;
+}

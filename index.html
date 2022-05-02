@@ -1,0 +1,60 @@
+<!-- webpack project was copied from project restaurantpage-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gourmet Restaurant</title>
+    <!--  https://github.com/robiveli/tabsy-css -->
+    <link href="tabsy.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="flexbox.css">
+    <script src="js/jquery-3.2.1.min.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Loukoulos Mediteranean Cuisine Restaurants </h1>
+        <h2> Traditional fresh sea food and healthy vegetable based dishes</h2>
+        <picture>
+            <img src="./img/loukoulos.jpg" alt="Mediteranean Cuisine dishes">
+            
+        </picture>
+            <div class="tabsy">
+                <input type="radio" id="tab1" name="tab" checked>
+                <label class="tabButton" for="tab1">Menus</label>
+                <div class="tab">
+                    <div class="content" id ="Menu">
+                        <h3>Click here for  weekly menus</h3>
+                      
+                    </div>
+                </div>
+                <input type="radio" id="tab2" name="tab" checked>
+                <label class="tabButton" for="tab2">Contact</label>
+                <div class="tab">
+                    <div class="content" id="Reservation">
+                        <h3 >Click here for contact details and reservation</h3>
+                       
+                    </div>
+                </div>
+                <!--input type="radio" id="tab3" name="tab" checked>
+                <label class="tabButton" for="tab3">About</label>
+                <div class="tab">
+                    <div class="content">
+                        About
+                    </div>
+                </div-->
+            </div>
+         
+    </header>
+    <main>
+        <div id="content"></div>
+<!--script> 
+$('#content').empty();
+$('#content').append('<h2>'+ 'Νηστίσιμα διαθεσιμα' +'</h2>');
+</script-->
+    </main>
+    <aside></aside>
+    <footer>Copyright 2021 Loukoulos Mediteranean Cuisine Restaurants</footer>
+   <script src="./main.js"></script> 
+</body>
+</html>
